@@ -53,13 +53,15 @@
             
             // an entity may have these describable sub-features
             case 'attribute':
+            case 'property':
             case 'method':
             case 'event':
               subCurrent = {
                 name: content,
                 description: code
               };
-              makePragma(current, pragma + 's', subCurrent);
+              var label = pragma == 'property' ? 'properties' : pragma + 's';
+              makePragma(current, label, subCurrent);
               break;
   
             // sub-feature pragmas
