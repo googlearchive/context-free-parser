@@ -1,7 +1,7 @@
 {
   "name": "polymer-context-free-parser",
   "version": "1.0.0",
-  "description": "context-free-parser ===================",
+  "description": "Parses source documentation from a polymer webcomponent.",
   "main": "context-free-parser.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
