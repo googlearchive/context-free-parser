@@ -1,13 +1,13 @@
 {
   "name": "polymer-context-free-parser",
   "version": "0.4.2",
-  "description": "Parses source documentation from a polymer webcomponent.",
+  "description": "context-free-parser scrapes source documentation data from input text or url.",
   "main": "context-free-parser.js",
   "repository": {
     "type": "git",
     "url": "ssh://git@github.com/Polymer/context-free-parser.git"
   },
-  "author": "",
+  "author": "The Polymer Authors",
   "license": "BSD",
   "bugs": {
     "url": "https://github.com/Polymer/context-free-parser/issues"
