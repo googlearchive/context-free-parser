@@ -77,7 +77,10 @@
             // sub-feature pragmas
             case 'default':
             case 'type':
-              subCurrent[pragma] = content;
+              var typeRe = /\{(.+)\}$/,
+                type = content.trim().match(typeRe);
+              // accepts `{String}` or the legacy format `String`
+              subCurrent[pragma] = type ? type[1] : content;
               break;
 
             case 'param':
