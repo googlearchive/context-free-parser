@@ -1,6 +1,6 @@
 {
   "name": "polymer-context-free-parser",
-  "version": "0.4.2",
+  "version": "0.5.6",
   "description": "context-free-parser scrapes source documentation data from input text or url.",
   "main": "context-free-parser.js",
   "repository": {
