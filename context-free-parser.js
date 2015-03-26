@@ -80,6 +80,10 @@
               subCurrent[pragma] = content;
               break;
 
+			case 'fires':
+			  makePragma(subCurrent, pragma, content);
+			  break;
+
             case 'param':
               var eventParmsRe = /\{(.+)\}\s+(\w+[.\w+]+)\s+(.*)$/;
 
