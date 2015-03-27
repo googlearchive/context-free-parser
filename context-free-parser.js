@@ -61,6 +61,13 @@
               entities.push(current);
               break;
 
+            // an entity may *not* use these values, interfering with the sub-features below
+            case 'attributes':
+            case 'methods':
+            case 'events':
+            case 'properties':
+              break;
+
             // an entity may have these describable sub-features
             case 'attribute':
             case 'property':
